@@ -1,0 +1,107 @@
+# Node modules
+node_modules/
+.pnp/
+.pnp.js
+
+# VitePress / Vite build output
+/.vitepress/dist/
+/dist/
+/build/
+/out/
+
+# Vite cache
+node_modules/.vite/
+
+# Static site caches
+.cache/
+.cache-loader/
+
+# Lockfiles (optional: remove if you track lockfiles)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.*.secret
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains
+/.idea/
+/*.iml
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+.npm/
+bower_components/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build artifacts for other tools
+/dist-ssr/
+/.serverless/
+
+# TypeScript
+*.tsbuildinfo
+
+# Storybook
+storybook-static/
+
+# Husky
+.husky/_/
+.husky/*.log
+
+# Optional: ignore local config for VitePress
+.vitepress/theme/.temp
+.vitepress/theme/styles/*.css.map
+
+# GitHub Actions artifacts
+.github/workflows/*.local
+
+# Ignore environment-specific plugin caches
+.vs/
+.cachevite/
+
+# If you use Netlify / Vercel / Cloudflare Pages, ignore their local folders
+.netlify/
+.vercel/
+.cloudflare/
+
+# Ensure you keep the VitePress config and content
+!/.vitepress/config.js
+!/.vitepress/config.ts
+!/.vitepress/components/
+!/.vitepress/theme/
+!/.vitepress/README.md
+!/docs/
